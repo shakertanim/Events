@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Kamrul Shaker">
+    <meta name="description" content="Events Handling">
+    <meta name="keywords" content="Events, Handling">
+    <title>Events Handling</title>
+    <script src="events.js"></script>
+    <style>
+        .main {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .key {
+            padding: 25px; border-radius: 2px;
+            border: double brown;
+            width: 60px;
+            transition: all .1s;
+            background-color: red;
+
+        }
+        .transition {
+            padding: 10px; border-radius: 4px;
+            width: 55px;
+            border: double black;
+            transition: all 1s;
+            background-color: aquamarine;
+            box-shadow: 0 0 10px blue;
+        }
+        #87 {
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <table>
+            <tr>
+                <td><h1  id="77" class="key">M</h1></td>
+                <td><h1  id="85" class="key">U</h1></td>
+                <td><h1  id="83" class="key">S</h1></td>
+                <td><h1  id="65" class="key">A</h1></td>
+                <td><h1  id="87" class="key">WW</h1></td>
+<!--                <td><h1   class="key">W</h1></td>-->
+                <td><h1  id="73" class="key">I</h1></td>
+                <td><h1  id="82" class="key">R</h1></td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <audio id="audio77" src="sounds/clap.wav"></audio>
+        <audio id="audio85" src="sounds/boom.wav"></audio>
+        <audio id="audio83" src="sounds/kick.wav"></audio>
+        <audio id="audio65" src="sounds/ride.wav"></audio>
+        <audio id="audio87" src="sounds/snare.wav"></audio>
+        <audio id="audio" src="sounds/tink.wav"></audio>
+        <audio id="audio73" src="sounds/openhat.wav"></audio>
+        <audio id="audio82" src="sounds/tom.wav"></audio>
+    </div>
+</body>
+</html>
